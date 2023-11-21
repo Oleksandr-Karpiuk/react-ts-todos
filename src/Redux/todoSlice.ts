@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface Todo {
   id: number;
@@ -8,14 +8,14 @@ interface Todo {
 const initialState: Todo[] = [];
 
 const todoSlice = createSlice({
-  name: "todos",
+  name: 'todos',
   initialState,
   reducers: {
     addTodo: (state, action: PayloadAction<string>) => {
       state.push({ id: Date.now(), text: action.payload });
     },
     deleteTodo: (state, action: PayloadAction<number>) => {
-      return state.filter((todo) => todo.id !== action.payload);
+      return state.filter(todo => todo.id !== action.payload);
     },
   },
 });
