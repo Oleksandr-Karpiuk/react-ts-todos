@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-ts-todos/static/css/main.baadee10.css",
+    "main.js": "/react-ts-todos/static/js/main.a969d297.js",
+    "index.html": "/react-ts-todos/index.html",
+    "main.baadee10.css.map": "/react-ts-todos/static/css/main.baadee10.css.map",
+    "main.a969d297.js.map": "/react-ts-todos/static/js/main.a969d297.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baadee10.css",
+    "static/js/main.a969d297.js"
+  ]
+}
